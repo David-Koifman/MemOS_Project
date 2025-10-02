@@ -9,8 +9,8 @@ from memos.mem_os.main import MOS
 
 
 # Set environment variables for testing
-os.environ["OPENAI_API_BASE"] = "http://xxxxxxxxx"
-os.environ["OPENAI_API_KEY"] = "sk-xxxxxxxxxx"
+#os.environ["OPENAI_API_BASE"] = "http://xxxxxxxxx"
+#os.environ["OPENAI_API_KEY"] = "sk-xxxxxxxxxx"
 os.environ["MOS_TEXT_MEM_TYPE"] = "general_text"  # "tree_text" need set neo4j
 
 
